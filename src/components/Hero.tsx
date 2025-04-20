@@ -18,7 +18,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
         >
-          John Doe
+          John Pool
         </motion.h1>
         <motion.h2 
           className="text-2xl md:text-3xl text-primary mb-8"

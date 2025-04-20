@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, Gem } from 'lucide-react';
+import { Gem } from 'lucide-react';
 
 const projects = [
   {
@@ -7,24 +7,18 @@ const projects = [
     description: 'Decentralized lending platform with unique yield optimization strategies',
     image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800',
     tech: ['Solidity', 'React', 'Web3.js'],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
   },
   {
     title: 'NFT Marketplace',
     description: 'Fantasy-themed NFT marketplace for digital art and collectibles',
     image: 'https://images.unsplash.com/photo-1634704784915-aacf363b021f?auto=format&fit=crop&q=80&w=800',
     tech: ['Next.js', 'Ethers.js', 'IPFS'],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
   },
   {
     title: 'Blockchain Explorer',
     description: 'Real-time blockchain data visualization with ethereal design',
     image: 'https://images.unsplash.com/photo-1639762681057-408e52192e55?auto=format&fit=crop&q=80&w=800',
     tech: ['TypeScript', 'D3.js', 'Node.js'],
-    github: 'https://github.com',
-    demo: 'https://demo.com'
   }
 ];
 
@@ -80,26 +74,6 @@ export default function Projects() {
                         {tech}
                       </span>
                     ))}
-                  </div>
-                  <div className="flex gap-3">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-white/60 hover:text-white transition-colors"
-                    >
-                      <Github size={18} />
-                      <span>Code</span>
-                    </a>
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-white/60 hover:text-white transition-colors"
-                    >
-                      <ExternalLink size={18} />
-                      <span>Demo</span>
-                    </a>
                   </div>
                 </div>
               </div>
