@@ -35,11 +35,11 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
         >
-          <a href="/resume.pdf" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-colors">
+          <a href="/John Pool.docx" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-colors">
             <FileText size={20} />
             Download Resume
           </a>
-          <a href="#contact" className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg flex items-center gap-2 backdrop-blur-sm transition-colors">
+          <a href="https://www.linkedin.com/in/john-pool-376864361" className="bg-white/10 hover:bg-white/20 text-white px-6 py-3 rounded-lg flex items-center gap-2 backdrop-blur-sm transition-colors">
             <ExternalLink size={20} />
             Contact Me
           </a>
