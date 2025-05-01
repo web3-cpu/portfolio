@@ -6,15 +6,15 @@ const experiences = [
     title: 'Senior Software Engineer',
     company: 'Lucia Protocol',
     period: 'Jan 2024 - Present',
-    description: 'Leading the development of innovative DeFi protocols and smart contracts',
+    description: 'Leading the design and development of innovative DeFi user interfaces and frontend integrations with smart contracts',
     icon: <Code2 className="w-6 h-6" />,
-    tech: ['Solidity', 'React', 'TypeScript', 'Web3.js']
+    tech: ['Solidity', 'React', 'Next.js', 'TypeScript', 'Web3.js']
   },
   {
     title: 'Senior Software Engineer',
     company: 'Jasmy Lab',
     period: 'Jan 2023 - Jun 2024',
-    description: 'Architected decentralized data storage solutions and IoT integration',
+    description: 'Designed and built intuitive interfaces for decentralized data storage platforms with seamless IoT device integration',
     icon: <Coins className="w-6 h-6" />,
     tech: ['Ethereum', 'Node.js', 'AWS', 'Docker']
   },
@@ -22,7 +22,7 @@ const experiences = [
     title: 'Full Stack Developer',
     company: 'Coinbase',
     period: 'Jan 2020 - Dec 2022',
-    description: 'Built high-performance trading interfaces and backend systems',
+    description: 'Developed high-performance, real-time trading interfaces with responsive UI and smooth Web3 connectivity',
     icon: <Building2 className="w-6 h-6" />,
     tech: ['React', 'Python', 'PostgreSQL', 'Redis']
   },
