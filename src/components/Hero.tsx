@@ -35,7 +35,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6 }}
         >
-          <a href="/John Pool.docx" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-colors">
+          <a href="https://docs.google.com/document/d/1IEUf3_7osWJarmjVmI2AO5MVXvATPDee/edit?usp=drive_link&ouid=105167766408245062414&rtpof=true&sd=true" className="bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-lg flex items-center gap-2 transition-colors">
             <FileText size={20} />
             Download Resume
           </a>
