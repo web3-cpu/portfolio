@@ -51,10 +51,10 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
         >
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+          <a href="https://github.com/web3-cpu" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+          <a href="https://www.linkedin.com/in/john-pool-376864361" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
             <Linkedin size={24} />
           </a>
         </motion.div>
